@@ -4,21 +4,11 @@
   "description": "Tree select hierarchical component for vue 3 (next).",
   "author": "megafetis",
   "type": "module",
-  "exports": {
-    ".": {
-      "import": "./dist/vue3-treeselect.js",
-      "require": "./dist/vue3-treeselect.cjs"
-    },
-    "./dist/": {
-      "import": "./dist/",
-      "require": "./dist/"
-    }
-  },
-  "main": "./dist/vue3-treeselect.js",
-  "module": "./dist/vue3-treeselect.cjs",
+  "main": "dist/vue3-treeselect.js",
+  "module": "dist/vue3-treeselect.cjs",
   "files": [
-    "./dist/vue3-treeselect.js",
-    "./dist/vue3-treeselect.css"
+    "dist/vue3-treeselect.js",
+    "dist/vue3-treeselect.css"
   ],
   "scripts": {
     "build": "vite build",
@@ -50,5 +40,6 @@
   },
   "peerDependencies": {
     "vue": "^3.0.0"
-  }
+  },
+  "packageManager": "yarn@1.22.22"
 }
